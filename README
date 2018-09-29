@@ -1,0 +1,15 @@
+21 Marzo 2006 
+Ultima Version correcta: 
+este esta usando la subrutina Src_check_sphericalharmonics.f90
+la cual revisa la identidad: 
+!!!page: 312 Quantum Physics
+!!!          Gasiorowicz
+!!! \begin{equation}
+!!! \displaystyle
+!!! \sum_{m=-l}^{m=l}|Y_{lm}\big(\theta, \phi\big)|^2 =\frac{2l+1}{4\pi}
+!!! \end{equation}
+la evalua para una tolernacia de: 0.0000000000001
+se puede cambiar  en: Src_check_sphericalharmonics.f90
+Ademas este imprime la parte REAL de los Harmmonicos esfericos 
+si quieres cambiarlo para que imprima el valor absoluto en:
+Src_ylmg_exe.f90 line=53 aprox. 
