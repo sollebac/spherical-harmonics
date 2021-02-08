@@ -1,1 +1,1 @@
-# spherical-harmonics
+# spherical-harmonics in Fortran code
